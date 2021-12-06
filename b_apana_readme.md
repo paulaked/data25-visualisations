@@ -16,3 +16,22 @@ csv file, contains information about successful and failed kickstarter projects.
 csv file, contains information about videogames and sales in 4 different regions
 - Book Review Ratings: https://www.kaggle.com/ruchi798/bookcrossing-dataset
 3 csv files - information about books, users, and ratings.
+
+## Bart Apanasionok Project Notes
+I selected the "Top Spotify songs from 2010-2019 - BY YEAR" data set available  at:
+https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year
+
+my first thought is to analyse the data by metrics such as genre and see if there 
+are any patterns over time.
+
+End of day monday 6th december
+I have imported the csv into pycharm and created a dataframe
+I have created further data frames for each year 
+
+plan is to do candle stick plot of bpm, energy, dance, db live ect
+for each year
+I also want to look at each artist ect
+
+duration may be of particular interest, I think there is an 
+article about how song duration has reduced due to how
+the spotify algorithms work. 
