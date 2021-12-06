@@ -16,3 +16,7 @@ csv file, contains information about successful and failed kickstarter projects.
 csv file, contains information about videogames and sales in 4 different regions
 - Book Review Ratings: https://www.kaggle.com/ruchi798/bookcrossing-dataset
 3 csv files - information about books, users, and ratings.
+
+# Chosen Dataset:
+- Videogame Sales: https://www.kaggle.com/gregorut/videogamesales
+csv file, contains information about videogames and sales in 4 different regions
