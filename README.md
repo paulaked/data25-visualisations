@@ -8,5 +8,10 @@ Task:
 
 ## Dataset from Kaggle:
 
-- Videogame Sales: https://www.kaggle.com/gregorut/videogamesales
-csv file, contains information about videogames and sales in 4 different regions
+- Videogame Sales: https://www.kaggle.com/gregorut/videogamesales , contains info about videogames and sales in 4 different regions
+
+- Firstly, clean up Year column, which was unneccessarily done as floats.
+  This did require filling in N/A values with a 0 in order to convert the whole column.
+
+- Next, make Publisher column uniform by changing all Unknown to N/A.
+  This way, we can pick all rows with no value in a more efficient way.
