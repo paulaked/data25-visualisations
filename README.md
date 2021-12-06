@@ -10,3 +10,7 @@ Task:
 
 I am going to be using the Kickstarter dataset from Kaggle (Kickstarter projects: https://www.kaggle.com/kemical/kickstarter-projects?select=ks-projects-201801.csv csv file)
 
+- I have removed the 'usd pledged' column which had 3797 NaN values, and the 4 rows where the name was null
+
+- I am going to check for duplicate data and hopefully merge if applicable
+
