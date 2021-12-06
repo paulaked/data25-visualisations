@@ -15,3 +15,11 @@ Task:
 
 - Next, make Publisher column uniform by changing all Unknown to N/A.
   This way, we can pick all rows with no value in a more efficient way.
+  
+- Now we can create graphs to help visualise the data.
+
+- First, line graphs looking at how much of the total global sales are from different regions.
+
+- Next, a bar graph to see which genre and which platform sold best.
+  We can see that platform, shooter and RPG were the most popular genres...
+  ...whilst the GameBoy, NES and Sega Genesis were the most popular consoles.
