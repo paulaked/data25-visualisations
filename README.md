@@ -10,6 +10,8 @@ Task:
 
 - Videogame Sales: https://www.kaggle.com/gregorut/videogamesales , contains info about videogames and sales in 4 different regions
 
+## Notes:
+
 - Firstly, clean up Year column, which was unneccessarily done as floats.
   This did require filling in N/A values with a 0 in order to convert the whole column.
 
