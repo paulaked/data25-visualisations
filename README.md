@@ -1,5 +1,9 @@
 # data25-visualisations
 
+///////////////////
+//MICHAELS BRANCH//
+///////////////////
+
 Task: 
 - Create your own branch for this repo and commit & push your work to it frequently with good commit messages.
 - Change this README.md to your own version on your branch, outlining what dataset you are using and notes about your data exploration/analysis.
@@ -16,3 +20,20 @@ csv file, contains information about successful and failed kickstarter projects.
 csv file, contains information about videogames and sales in 4 different regions
 - Book Review Ratings: https://www.kaggle.com/ruchi798/bookcrossing-dataset
 3 csv files - information about books, users, and ratings.
+
+## Git Commands
+##Creating a new branch and switching to it (use your name as the branch name):
+git checkout -b <branch name>
+
+##Check the status of your repo:
+git status
+
+##Adding untracked files, dot will add everything, or type out file name:
+git add .   
+git add <filename>
+
+##Committing changes:
+git commit -m '<message>'
+
+##Pushing changes to github:
+git push
