@@ -20,3 +20,11 @@ csv file, contains information about videogames and sales in 4 different regions
 # Chosen Dataset:
 - Videogame Sales: https://www.kaggle.com/gregorut/videogamesales
 csv file, contains information about videogames and sales in 4 different regions
+
+# Cleaning Data
+- First check data set for any duplicate data using:
+``vgsales.duplicated().sum()``
+- Check for null data using:
+``vgsales.isnull().sum()``
+- Replaced null values with empty string:
+``vgsales.fillna('', inplace=True)``
