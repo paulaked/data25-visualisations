@@ -6,13 +6,28 @@ Task:
 - Pick a dataset from Kaggle, if you struggle pick one of the suggested ones below. 
 - Clean and analyse the dataset using Pandas DataFrames and packages like seaborn and matplotlib to create visualisations.
 
-## Example Datasets from Kaggle:
+## Dataset from Kaggle:
 
-- Kickstarter projects: https://www.kaggle.com/kemical/kickstarter-projects?select=ks-projects-201801.csv
-csv file, contains information about successful and failed kickstarter projects.
-- Google Play Store Apps: https://www.kaggle.com/lava18/google-play-store-apps
-2 csv files - one contains information about the apps, the other contains user reviews. Possible to analyse single file, but gives room for joining and deeper analysis.
-- Videogame Sales: https://www.kaggle.com/gregorut/videogamesales
-csv file, contains information about videogames and sales in 4 different regions
-- Book Review Ratings: https://www.kaggle.com/ruchi798/bookcrossing-dataset
-3 csv files - information about books, users, and ratings.
+- Videogame Sales: https://www.kaggle.com/gregorut/videogamesales , contains info about videogames and sales in 4 different regions
+
+## Notes:
+
+- Firstly, clean up Year column, which was unneccessarily done as floats.
+  This did require filling in N/A values with a 0 in order to convert the whole column.
+
+- Next, make Publisher column uniform by changing all Unknown to N/A.
+  This way, we can pick all rows with no value in a more efficient way.
+  
+- Now we can create graphs to help visualise the data.
+
+- First, line graphs looking at how much of the total global sales are from different regions.
+
+- Next, a bar graph to see which genre and which platform sold best.
+  We can see that platform, shooter and RPG were the most popular genres...
+  ...whilst the GameBoy, NES and Sega Genesis were the most popular consoles.
+
+- Next, we can modify the data in order to work with Year on a graph.
+  Removing all N/A and 0 values will allow us to see global sales over the years.
+  
+- Most interestingly, we can plot sales for each region over time.
+  This way, we can observe which region tends to generate the most sales, which mostly appears to be North America.
