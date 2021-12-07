@@ -21,7 +21,7 @@ csv file, contains information about videogames and sales in 4 different regions
 - Book Review Ratings: https://www.kaggle.com/ruchi798/bookcrossing-dataset
 3 csv files - information about books, users, and ratings.
 
-## Git Commands
+### Git Commands ###
 ##Creating a new branch and switching to it (use your name as the branch name):
 git checkout -b <branch name>
 
