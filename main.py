@@ -10,34 +10,48 @@ data = pd.DataFrame(data)
 data = data.rename(columns={"nrgy": "energy", "dnce": "danceability", "live": "liveness", "val": "positivity",
                             "dur": "duration", "acous": "acousticness", "spch": "speechiness",
                             "pop": "popularity"})
+data = data[data.duration >= 150]
+data = data[data.duration <= 350]
 #print(tb.tabulate(data, headers=data))
-# grouped_by_year = data.groupby(data.year)
-# year_2010 = grouped_by_year.get_group(2010)
-# year_2011 = grouped_by_year.get_group(2011)
-# year_2012 = grouped_by_year.get_group(2012)
-# year_2013 = grouped_by_year.get_group(2013)
-# year_2014 = grouped_by_year.get_group(2014)
-# year_2015 = grouped_by_year.get_group(2015)
-# year_2016 = grouped_by_year.get_group(2016)
-# year_2017 = grouped_by_year.get_group(2017)
-# year_2018 = grouped_by_year.get_group(2018)
-# year_2019 = grouped_by_year.get_group(2019)
-#print(tb.tabulate(data, headers=data))
+grouped_by_year = data.groupby(data.year)
+year_2010 = grouped_by_year.get_group(2010)
+year_2011 = grouped_by_year.get_group(2011)
+year_2012 = grouped_by_year.get_group(2012)
+year_2013 = grouped_by_year.get_group(2013)
+year_2014 = grouped_by_year.get_group(2014)
+year_2015 = grouped_by_year.get_group(2015)
+year_2016 = grouped_by_year.get_group(2016)
+year_2017 = grouped_by_year.get_group(2017)
+year_2018 = grouped_by_year.get_group(2018)
+year_2019 = grouped_by_year.get_group(2019)
+print(tb.tabulate(data, headers=data))
+
+plt.figure()
+data = [year_2010.duration,
+        year_2011.duration,
+        year_2012.duration,
+        year_2013.duration,
+        year_2014.duration,
+        year_2015.duration,
+        year_2016.duration,
+        year_2017.duration,
+        year_2018.duration,
+        year_2019.duration]
+plt.boxplot(data)
+plt.xlabel("Years")
+plt.ylabel("Song Duration in Seconds")
+plt.show()
 
 
 
-
-# sns.set_style("whitegrid")
-# plt.figure()
-# sns.violinplot(x=data.year, y=data.bpm)
-# plt.show()
+#Testing not for printing!
 #
 # plt.figure()
 # fig1 = sns.violinplot(x=data.year, y=data.energy)
 # plt.show()
 #
 # plt.figure()
-# sns.violinplot(x=data.year, y=data.duration)
+# (x=data.year, y=data.duration)
 # plt.show()
 #
 # plt.figure()

@@ -35,3 +35,8 @@ I also want to look at each artist ect
 duration may be of particular interest, I think there is an 
 article about how song duration has reduced due to how
 the spotify algorithms work. 
+
+The article about song duration:
+	https://www.prsformusic.com/m-magazine/features/song-length-the-spotify-effect/
+
+The data showed a similar effect, there is a noticable drop in maximm song long and average song length in 2017, 18 and 19
