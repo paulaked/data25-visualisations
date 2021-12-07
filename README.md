@@ -25,3 +25,9 @@ Task:
 - Next, a bar graph to see which genre and which platform sold best.
   We can see that platform, shooter and RPG were the most popular genres...
   ...whilst the GameBoy, NES and Sega Genesis were the most popular consoles.
+
+- Next, we can modify the data in order to work with Year on a graph.
+  Removing all N/A and 0 values will allow us to see global sales over the years.
+  
+- Most interestingly, we can plot sales for each region over time.
+  This way, we can observe which region tends to generate the most sales, which mostly appears to be North America.
