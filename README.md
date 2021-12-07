@@ -1,4 +1,12 @@
+Hello!
+Below you will see the task in hand.
+I am using the data set 'Amazon Top 50 Best Selling Books' available here https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
+
+
+
+
 # data25-visualisations
+
 
 Task: 
 - Create your own branch for this repo and commit & push your work to it frequently with good commit messages.
